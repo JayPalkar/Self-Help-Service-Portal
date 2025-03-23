@@ -1,0 +1,32 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0972d3;
+  --secondary-color: #414d5c;
+  --background-color: #f8f8f8;
+  --text-color: #16191f;
+  --border-color: #e9ebed;
+  --success-color: #037f0c;
+  --error-color: #d91515;
+  --warning-color: #f89406;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
